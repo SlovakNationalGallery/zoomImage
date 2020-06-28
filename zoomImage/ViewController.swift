@@ -16,8 +16,10 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     var imageView = UIImageView()
     
     override func viewDidLoad() {
-        let image = UIImage(named: "fulla")
         
+//        let image = UIImage(named: "zupan")
+        let image = UIImage(named: "kapitan")
+
         super.viewDidLoad()
         scrollView.delegate = self
         
